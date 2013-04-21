@@ -1,0 +1,41 @@
+.spice .clearfix::before,
+.spice-clearfix::before {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.spice .clip,
+.spice-clip {
+  overflow: hidden !important;
+}
+
+.spice .clip-x
+.spice-clip-x {
+  overflow-x: hidden !important;
+}
+
+.spice .clip-y,
+.spice-clip-y {
+  overflow-y: hidden !important;
+}
+
+.spice block,
+.spice-block {
+  display: block;
+}
+
+.spice .inline,
+.spice-inline {
+  display: inline !important;
+}
+
+.spice .pull-left,
+.spice-pull-left {
+  float: left !important;
+}
+
+.spice .pull-right,
+.spice-pull-right {
+  float: right !important;
+}
