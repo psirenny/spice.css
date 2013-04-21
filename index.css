@@ -1,3 +1,7 @@
+.spice .block,
+.spice-block {
+  display: block !important;
+}
 .spice .clearfix::before,
 .spice-clearfix::before {
   clear: both;
@@ -18,11 +22,6 @@
 .spice .clip-y,
 .spice-clip-y {
   overflow-y: hidden !important;
-}
-
-.spice block,
-.spice-block {
-  display: block !important;
 }
 
 .spice .pull-left,
