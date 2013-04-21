@@ -2,6 +2,7 @@
 .spice-block {
   display: block !important;
 }
+
 .spice .clearfix::before,
 .spice-clearfix::before {
   clear: both;
