@@ -22,12 +22,7 @@
 
 .spice block,
 .spice-block {
-  display: block;
-}
-
-.spice .inline,
-.spice-inline {
-  display: inline !important;
+  display: block !important;
 }
 
 .spice .pull-left,
