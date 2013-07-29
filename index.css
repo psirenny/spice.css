@@ -1,36 +1,99 @@
-.spice .block,
-.spice-block {
-  display: block !important;
+.block {
+  display: block;
 }
 
-.spice .clearfix::before,
-.spice-clearfix::before {
+.clearfix::before {
   clear: both;
   content: '';
   display: table;
 }
 
-.spice .clip,
-.spice-clip {
-  overflow: hidden !important;
+.clip {
+  overflow: hidden;
 }
 
-.spice .clip-x
-.spice-clip-x {
-  overflow-x: hidden !important;
+.clip-x {
+  overflow-x: hidden;
 }
 
-.spice .clip-y,
-.spice-clip-y {
-  overflow-y: hidden !important;
+.clip-y {
+  overflow-y: hidden;
 }
 
-.spice .pull-left,
-.spice-pull-left {
-  float: left !important;
+.expand {
+  height: 100%;
+  width: 100%;
 }
 
-.spice .pull-right,
-.spice-pull-right {
-  float: right !important;
+.expand-x {
+  width: 100%;
+}
+
+.expand-y {
+  height: 100%;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+
+.inline {
+  display: inline;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.ir {
+  border: 0;
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.screen-reader {
+  border: 0;
+  click: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.screen-reader:focusable:active,
+.screen-reader:focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: auto;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.scroll-x {
+  overflow-x: scroll;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+}
+
+.visible {
+  visibility: visible;
 }
