@@ -8,6 +8,21 @@
   display: table !important;
 }
 
+.center {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.center,
+.center-x {
+  text-align: center !important;
+}
+
+.center,
+.center-y {
+  vertical-align: middle !important;
+}
+
 .clip {
   overflow: hidden !important;
 }
