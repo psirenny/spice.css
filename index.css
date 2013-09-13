@@ -68,6 +68,30 @@
   text-shadow: none !important;
 }
 
+.pin,
+.pin-bottom
+.pin-left,
+.pin-right,
+.print-top {
+  position: absolute !important;
+}
+
+.pin-bottom {
+  left: 0 !important;
+}
+
+.pin-left {
+  left: 0 !important;
+}
+
+.pin-right {
+  left: 0 !important;
+}
+
+.pin-top {
+  left: 0 !important;
+}
+
 .pull-left {
   float: left !important;
 }
