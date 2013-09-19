@@ -100,6 +100,10 @@
   float: right !important;
 }
 
+.relative {
+  position: relative !important;
+}
+
 .screen-reader {
   border: 0 !important;
   click: rect(0 0 0 0) !important;
