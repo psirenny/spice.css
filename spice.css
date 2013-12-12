@@ -113,6 +113,10 @@
   text-shadow: none !important;
 }
 
+.lowercase {
+  text-transform: lowercase;
+}
+
 .pin,
 .pin-bottom
 .pin-left,
