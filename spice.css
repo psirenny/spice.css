@@ -47,6 +47,10 @@
   display: block !important;
 }
 
+.lowercase {
+  text-transform: capitalize !important;
+}
+
 .clearfix::before {
   clear: both !important;
   content: '' !important;
