@@ -43,6 +43,14 @@
   }
 }
 
+.align-left {
+  text-align: left !important;
+}
+
+.align-right {
+  text-align: right !important;
+}
+
 .block {
   display: block !important;
 }
