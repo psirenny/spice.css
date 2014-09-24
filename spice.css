@@ -59,7 +59,7 @@
   text-transform: capitalize !important;
 }
 
-.clearfix::before {
+.clearfix::after {
   clear: both !important;
   content: '' !important;
   display: table !important;
