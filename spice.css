@@ -80,6 +80,10 @@
   vertical-align: middle !important;
 }
 
+.clickable {
+  cursor: pointer !important;
+}
+
 .clip {
   overflow: hidden !important;
 }
