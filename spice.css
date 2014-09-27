@@ -113,6 +113,10 @@
   height: 100% !important;
 }
 
+.fixed {
+  position: fixed !important;
+}
+
 .hidden {
   display: none !important;
   visibility: hidden !important;
@@ -145,18 +149,22 @@
   position: absolute !important;
 }
 
+.bottom,
 .pin-bottom {
   bottom: 0 !important;
 }
 
+.left,
 .pin-left {
   left: 0 !important;
 }
 
+.right,
 .pin-right {
   right: 0 !important;
 }
 
+.top,
 .pin-top {
   top: 0 !important;
 }
