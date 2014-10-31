@@ -141,31 +141,27 @@
   text-transform: lowercase !important;
 }
 
-.pin,
-.pin-bottom,
-.pin-left,
-.pin-right,
-.pin-top {
+.pinned {
   position: absolute !important;
 }
 
-.bottom,
-.pin-bottom {
+.fixed.bottom,
+.pinned.bottom {
   bottom: 0 !important;
 }
 
-.left,
-.pin-left {
+.fixed.lef,
+.pinned.left {
   left: 0 !important;
 }
 
-.right,
-.pin-right {
+.fixed.right,
+.pinned.right {
   right: 0 !important;
 }
 
-.top,
-.pin-top {
+.fixed.top,
+.pinned.top {
   top: 0 !important;
 }
 
